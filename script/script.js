@@ -16,15 +16,13 @@ function pesquisar() {
     let genero = "";
     let descricao = "";
     let lancamento = "";
-    let estudio = "";
 
     for (let dado of dados) {
         nome = dado.nome.toLowerCase()
         genero = dado.genero.toLowerCase()
         descricao = dado.descricao.toLowerCase()
         lancamento = dado.lancamento.toLowerCase()
-        estudio = dado.estudio.toLowerCase()
-        if (nome.includes(campoPesquisa) || genero.includes(campoPesquisa) || descricao.includes(campoPesquisa) || lancamento.includes(campoPesquisa) || estudio.includes(campoPesquisa)) {
+        if (nome.includes(campoPesquisa) || genero.includes(campoPesquisa) || descricao.includes(campoPesquisa) || lancamento.includes(campoPesquisa)) {
             resultado += `
                 <div class="resultado">
                     <img src="${dado.banner}">
