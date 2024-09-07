@@ -32,7 +32,7 @@ function pesquisar() {
                         <p>${dado.lancamento}</p>
                         <p>${dado.genero}</p>
                         <p>${dado.estudios}</p>
-                        <a href="${dado.link}" target="_blank">Baixe Aqui</a>
+                        <a href="${dado.link}" target="_blank">Mais Informações</a>
                     </div>
                 </div>
             `;
