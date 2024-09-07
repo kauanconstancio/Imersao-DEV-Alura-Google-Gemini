@@ -4,7 +4,7 @@ function pesquisar() {
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value
 
-    if(campoPesquisa == "") {
+    if(!campoPesquisa) {
         pesquisa.innerHTML = "<h5>Nenhum jogo foi encontrado :(</h5>"
         return
     }
@@ -35,6 +35,11 @@ function pesquisar() {
                 </div>
             `;
         }
+    }
+
+    if (!resultado) {
+        pesquisa.innerHTML = "<h5>Nada foi encontrado. Você precisa digitar um nome ou genero do jogo :(</h5>"
+        return
     }
 
     // Atualiza o conteúdo do elemento "pesquisa" com os resultados.
