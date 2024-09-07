@@ -163,6 +163,14 @@ h5{
 }
 
 @media (max-width: 570px){
+
+    h5{
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        padding: 0 30px;
+    }
+
     .main section{
         display: flex;
         flex-direction: column;
@@ -195,6 +203,11 @@ h5{
         padding: 30px;
     }
 
+    .main .pesquisa .resultado img{
+        height: 250px;
+        width: 250px;
+    }
+
 
     .footer{
         display: flex;
@@ -207,5 +220,22 @@ h5{
         font-size: 13px;
         padding: 0;
         margin: 0;
+    }
+
+    @media (max-width: 380px){
+
+        .main .pesquisa .resultado{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 250px;
+            height: auto;
+            padding: 30px;
+        }
+
+        .main .pesquisa .resultado img{
+            height: 200px;
+            width: 200px;
+        }
     }
 }
