@@ -80,6 +80,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     width: 300px;
     border-radius: 16px;
     object-fit: cover;
+    border: 1px solid #1F2020;
 }
 
 .main .pesquisa .resultado p,
