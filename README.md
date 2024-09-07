@@ -2,7 +2,7 @@
 
 **Descrição:**
 
-Best Games é uma plataforma web que permite aos usuários descobrirem novos jogos de acordo com seus interesses. Através de uma interface intuitiva, os jogadores podem pesquisar por título, gênero e plataforma, encontrando rapidamente os jogos perfeitos para eles.
+Best Games é uma plataforma web que permite aos usuários descobrirem novos jogos de acordo com seus interesses. Através de uma interface intuitiva, os jogadores podem pesquisar por título e gênero, encontrando rapidamente os jogos perfeitos para eles.
 
 **Funcionalidades:**
 
