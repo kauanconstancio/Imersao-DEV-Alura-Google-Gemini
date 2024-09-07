@@ -23,9 +23,6 @@ Best Games é uma plataforma web que permite aos usuários descobrirem novos jog
 4. **Faça as suas alterações** e commit.
 5. **Envie um pull request** para o repositório original.
 
-**Licença:**
-
-Este projeto está licenciado sob a licença MIT.
 
 **Agradecimentos:**
 
