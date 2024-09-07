@@ -6,7 +6,7 @@ Best Games é uma plataforma web que permite aos usuários descobrirem novos jog
 
 **Funcionalidades:**
 
-* **Pesquisa personalizada:** Filtre os resultados por gênero, plataforma e outros critérios.
+* **Pesquisa personalizada:** Filtre os resultados por gênero, nome e outros critérios.
 * **Detalhes completos:** Acesse informações detalhadas sobre cada jogo, como sinopse, imagens e trailers.
 
 **Tecnologias:**
