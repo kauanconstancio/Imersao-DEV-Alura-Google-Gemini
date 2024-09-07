@@ -12,9 +12,9 @@ Best Games é uma plataforma web que permite aos usuários descobrirem novos jog
 
 **Tecnologias:**
 
-* **Front-end:** React, Redux, Material UI
-* **Back-end:** Node.js, Express.js
-* **Banco de dados:** MongoDB
+* **HTML:5**
+* **CSS3**
+* **JavaScript**
 
 **Como contribuir:**
 
