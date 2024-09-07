@@ -15,12 +15,14 @@ function pesquisar() {
     let nome = "";
     let genero = "";
     let descricao = "";
+    let lancamento = "";
 
     for (let dado of dados) {
         nome = dado.nome.toLowerCase()
         genero = dado.genero.toLowerCase()
         descricao = dado.descricao.toLowerCase()
-        if (nome.includes(campoPesquisa) || genero.includes(campoPesquisa) || descricao.includes(campoPesquisa)) {
+        lancamento = dado.lancamento.toLowerCase()
+        if (nome.includes(campoPesquisa) || genero.includes(campoPesquisa) || descricao.includes(campoPesquisa) || lancamento.includes(campoPesquisa)) {
             resultado += `
                 <div class="resultado">
                     <img src="${dado.banner}">
