@@ -89,6 +89,15 @@ h2{
     margin: 0;
 }
 
+.main .pesquisa .resultado span{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main .pesquisa .resultado p{
+    font-weight: 300;
+}
+
 .main .pesquisa .resultado a{
     text-decoration: none;
     color: #fff;
