@@ -38,7 +38,7 @@ function pesquisar() {
     }
 
     if (!resultado) {
-        pesquisa.innerHTML = "<h5>Nada foi encontrado. Você precisa digitar um nome ou genero do jogo :(</h5>"
+        pesquisa.innerHTML = "<h5>Nenhum jogo foi encontrado :(</h5>"
         return
     }
 
